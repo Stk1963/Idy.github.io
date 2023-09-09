@@ -1,0 +1,50 @@
+
+body {
+    background-color: burlywood;
+ }
+ h1 {
+    text-align: center;
+    color:black;
+ }
+
+ main {
+min-height: 500px;
+width: 90%;
+background:green;
+
+    /* centrer une boite */
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 20px 20px 0 0;
+    box-shadow: 0 10px 10px;
+    padding: 15px;
+}
+
+h2 {
+    margin: 0;
+}
+.flexbox {
+   border: 2px solid brown;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+}
+.flexbox ul {
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+.flexbox li {
+    list-style: none ;
+    height: 150px;
+    width: 215px;
+    margin: 10px;
+    background-color:burlywood;
+    background-image:url("https://myfiles.space/user_files/171876_5d936fdf98a29051/171876_custom_files/img1693674797.svg");
+     display:flex ;
+     justify-content: center;
+     align-items:end; justify-content: center;
+    align-items:end; 
+    max-width: 100%; 
+    height: auto;
+    background-repeat:no-repeat;
